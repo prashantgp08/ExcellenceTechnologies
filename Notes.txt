@@ -1,0 +1,22 @@
+Get Single Company
+http://localhost:3000/companies/1
+
+Get All Users of a Company
+http://localhost:3000/companies/1/users
+
+Filter Company by Name
+http://localhost:3000/companies?name=Microsoft
+http://localhost:3000/companies?name=Microsoft&name=Apple
+
+Pagination & Limit
+http://localhost:3000/companies?_page=1&_limit=2
+
+Sorting
+http://localhost:3000/companies?_sort=name&order=asc
+
+Users Age Range
+http://localhost:3000/users?age_gte=25
+http://localhost:3000/users?age_gte=25&age_lte=27
+
+Full Text Search
+http://localhost:3000/users?q=Prashant
